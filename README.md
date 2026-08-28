@@ -53,5 +53,21 @@ Projeyi kendi bilgisayarınızda çalıştırmak için:
    vagrant destroy -f
    ```
 
+## 📸 Uygulama Görselleri & Test Çıktıları
+
+Projenin kurulumu ve sorun giderme (troubleshooting) aşamalarında alınan bazı canlı terminal çıktıları:
+
+![Test 1](<images/Ekran görüntüsü 2026-08-28 185538.png>)
+![Test 2](<images/Ekran görüntüsü 2026-08-28 185644.png>)
+![Test 3](<images/Ekran görüntüsü 2026-08-28 190042.png>)
+![Test 4](<images/Ekran görüntüsü 2026-08-28 190936.png>)
+![Test 5](<images/Ekran görüntüsü 2026-08-28 191118.png>)
+![Test 6](<images/Ekran görüntüsü 2026-08-28 191328.png>)
+![Test 7](<images/Ekran görüntüsü 2026-08-28 191515.png>)
+![Test 8](<images/Ekran görüntüsü 2026-08-28 191742.png>)
+![Test 9](<images/Ekran görüntüsü 2026-08-28 191937.png>)
+![Test 10](<images/Ekran görüntüsü 2026-08-28 192558.png>)
+![Test 11](<images/Ekran görüntüsü 2026-08-28 192947.png>)
+
 ---
 *Bu proje, DevOps ağ iletişimi ve Linux sunucu yönetimi becerilerini geliştirmek için uygulamalı bir pratik olarak hazırlanmıştır.*
