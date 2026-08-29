@@ -2,7 +2,7 @@
 
 Bu proje, DevOps pratiklerinde hayati bir rol oynayan ağ yönetimi (networking), güvenlik duvarı (firewall) yapılandırması ve hata ayıklama (troubleshooting) süreçlerini simüle etmek amacıyla hazırlanmış 3 katmanlı (Proxy-Web-DB) bir altyapı laboratuvarıdır.
 
-## 🏗️ Proje Mimarisi
+##  Proje Mimarisi
 
 Altyapı **Vagrant** kullanılarak 3 adet CentOS Stream 9 sanal makinesi ile oluşturulmuştur:
 
@@ -10,7 +10,7 @@ Altyapı **Vagrant** kullanılarak 3 adet CentOS Stream 9 sanal makinesi ile olu
 - **web01 (192.168.50.11):** Apache Web Server. Özel olarak 8080 portunda çalışacak şekilde yapılandırılmıştır.
 - **db01 (192.168.50.12):** MariaDB Database Server. Sadece iç ağdan (3306 portu) erişime açıktır.
 
-## 🚀 Kullanılan Teknolojiler & Araçlar
+##  Kullanılan Teknolojiler & Araçlar
 
 - **Provisioning:** Vagrant, VirtualBox
 - **OS:** CentOS Stream 9
@@ -27,7 +27,7 @@ Bu projede sadece kurulum yapılmamış, aynı zamanda gerçek dünya kriz senar
 2. **Güvenlik Duvarı Engeli (No Route to Host / 502 Bad Gateway):** `firewalld` kuralları nedeniyle Nginx'in Apache'ye ulaşamaması simüle edilmiş ve sadece belirli portlar (`80` ve `8080`) dışarıya açılarak sorun giderilmiştir.
 3. **Yönlendirme (Routing) Hatası (Network Unreachable):** Yönlendirme tablosuna kasıtlı olarak "Blackhole" (Kara Delik) kuralı eklenmiş ve ağ paketlerinin kernel seviyesinde nasıl düştüğü `ip route` üzerinden analiz edilmiştir.
 
-## 💻 Kurulum ve Çalıştırma
+##  Kurulum ve Çalıştırma
 
 Projeyi kendi bilgisayarınızda çalıştırmak için:
 
@@ -53,7 +53,7 @@ Projeyi kendi bilgisayarınızda çalıştırmak için:
    vagrant destroy -f
    ```
 
-## 📸 Uygulama Görselleri & Test Çıktıları
+##  Uygulama Görselleri & Test Çıktıları
 
 Projenin kurulumu ve sorun giderme (troubleshooting) aşamalarında alınan bazı canlı terminal çıktıları:
 
